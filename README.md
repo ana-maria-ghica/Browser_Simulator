@@ -7,7 +7,7 @@ Web browser simulation in C, using linked lists, stacks, queues and structures.
 -`README.md`
 -`Makefile`
 -`file.in`
--`file.out`
+-`file.out`  
 
 ## Possible operations
 NEW_TAB - opens a new tab
