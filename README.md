@@ -6,6 +6,8 @@ Web browser simulation in C, using linked lists, stacks, queues and structures.
 -`checker` - script used for testing, `tests` folder with input samples
 -`README.md`
 -`Makefile`
+-`file.in`
+-`file.out`
 
 ## Possible operations
 NEW_TAB - opens a new tab
