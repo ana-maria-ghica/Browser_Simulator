@@ -2,11 +2,11 @@
 Web browser simulation in C, using linked lists, stacks, queues and structures.
 
 ## Project structure
--`src` - source files\
--`checker` - script used for testing, `tests` folder with input samples\
--`README.md`\
--`Makefile`\  
--`file.in`\
+-`src` - source files  
+-`checker` - script used for testing, `tests` folder with input samples  
+-`README.md`  
+-`Makefile`
+-`file.in`  
 -`file.out`  
 
 ## Possible operations
@@ -20,7 +20,7 @@ BACKWARD - goes to next page\
 FORWARD - goes to previous page\
 PRINT - prints in oneliner the description of current page\
 PRINT_HISTORY [ID] - prints in multiple lines pages'URLs and IDs from [ID] specified tab\
-\
+  
 Input files are available to test the code in differen scenarios and corner cases.
 
 ## Compilation and Running
