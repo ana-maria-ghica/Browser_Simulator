@@ -3,7 +3,7 @@ Web browser simulation in C, using linked lists, stacks, queues and structures.
 
 ## Project structure
 -`src` - source files  
--`checker` - script used for testing, `tests` folder with input samples  
+-`checker` - script used for testing, `tests` folder contains input samples  
 -`README.md`  
 -`Makefile`  
 -`file.in`  
@@ -18,10 +18,10 @@ PREV - goes to previous tab\
 PAGE [ID] - opens the specific [ID] tab; if no [ID] exists, prints "403 FORBIDDEN"\
 BACKWARD - goes to next page\
 FORWARD - goes to previous page\
-PRINT - prints in oneliner the description of current page\
-PRINT_HISTORY [ID] - prints in multiple lines pages'URLs and IDs from [ID] specified tab\
+PRINT - prints in a single line the description of current page\
+PRINT_HISTORY [ID] - prints in multiple lines pages' URLs and IDs from [ID] specified tab\
   
-Input files are available to test the code in differen scenarios and corner cases.
+Input files are available to test the code in different scenarios and corner cases.
 
 ## Compilation and Running
-`make test` - scores for all test will be available, Valgrind test is passed
+`make test` - runs all tests, Valgrind checks are also performed
