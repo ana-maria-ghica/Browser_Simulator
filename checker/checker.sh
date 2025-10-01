@@ -60,7 +60,7 @@ function testInput() {
     local test_index="$2"
     local file_name
     file_name=$(basename "$file")
-    local ref_file="tests/ref/${file_name%.in}.ref"
+    local ref_file="checker/tests/ref/${file_name%.in}.ref"
 
     cat "$file" > file.in
     dos2unix -q file.in
@@ -98,7 +98,7 @@ function main() {
     readme
 
     local test_index=1
-    for file in $(ls tests/input/*.in | sort); do
+    for file in $(ls checker/tests/input/*.in | sort); do
         testInput "$file" "$test_index"
         ((test_index++))
     done
