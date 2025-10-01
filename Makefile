@@ -17,7 +17,7 @@ run: build
 	./main
 
 test: main
-	cd checker && ./checker.sh
+	checker/checker.sh
 
 clean:
 	rm -f *.o main
