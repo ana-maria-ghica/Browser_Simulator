@@ -2,9 +2,9 @@
 Web browser simulation in C, using linked lists, stacks, queues and structures.
 
 ## Project structure
--`src` - source files
--`checker` - script used for testing, `tests` folder with input samples
--`README.md`
+-`src` - source files\
+-`checker` - script used for testing, `tests` folder with input samples\
+-`README.md`\
 -`Makefile`  
 -`file.in`
 -`file.out`  
