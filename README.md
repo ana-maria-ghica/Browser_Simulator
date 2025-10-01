@@ -5,7 +5,7 @@ Web browser simulation in C, using linked lists, stacks, queues and structures.
 -`src` - source files  
 -`checker` - script used for testing, `tests` folder with input samples  
 -`README.md`  
--`Makefile`
+-`Makefile`  
 -`file.in`  
 -`file.out`  
 
